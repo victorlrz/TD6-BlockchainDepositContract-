@@ -1,0 +1,186 @@
+{
+  "contractName": "InterfaceCoin",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "claimTokens",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.1+commit.c8a2cb62\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"claimTokens\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Victor/Ethereum/TD6/contracts/Interface.sol\":\"InterfaceCoin\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Victor/Ethereum/TD6/contracts/Interface.sol\":{\"keccak256\":\"0xc583eb7af1c5b00befce8006195d2cf46aab28f7eb4d249b80f070bbb1072dd3\",\"urls\":[\"bzzr://7ba036ba6249d4f1fd30276263c15c274489a7f5a83b152d86940171b16206b3\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060808061001e6000396000f3fe6080604052600436106039576000357c01000000000000000000000000000000000000000000000000000000009004806348c54b9d14603e575b600080fd5b348015604957600080fd5b5060506052565b005b56fea165627a7a72305820f23278f4692580e1a3f395a9288ea6a8952da912e0bfa079bc11939a887317080029",
+  "deployedBytecode": "0x6080604052600436106039576000357c01000000000000000000000000000000000000000000000000000000009004806348c54b9d14603e575b600080fd5b348015604957600080fd5b5060506052565b005b56fea165627a7a72305820f23278f4692580e1a3f395a9288ea6a8952da912e0bfa079bc11939a887317080029",
+  "sourceMap": "69:65:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:65:1;;;;;;;",
+  "deployedSourceMap": "69:65:1:-;;;;;;;;;;;;;;;;;;;;;;99:32;;8:9:-1;5:2;;;30:1;27;20:12;5:2;99:32:1;;;:::i;:::-;;;:::o",
+  "source": "// SPDX-License-Identifier: MIt\r\npragma solidity >=0.4.22 <0.8.0;\r\n\r\ncontract InterfaceCoin {\r\n    function claimTokens() public {}\r\n}\r\n",
+  "sourcePath": "D:\\Victor\\Ethereum\\TD6\\contracts\\Interface.sol",
+  "ast": {
+    "absolutePath": "/D/Victor/Ethereum/TD6/contracts/Interface.sol",
+    "exportedSymbols": {
+      "InterfaceCoin": [
+        57
+      ]
+    },
+    "id": 58,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 52,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 57,
+        "linearizedBaseContracts": [
+          57
+        ],
+        "name": "InterfaceCoin",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 55,
+              "nodeType": "Block",
+              "src": "129:2:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 56,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "claimTokens",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 53,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "119:2:1"
+            },
+            "returnParameters": {
+              "id": 54,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "129:0:1"
+            },
+            "scope": 57,
+            "src": "99:32:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 58,
+        "src": "69:65:1"
+      }
+    ],
+    "src": "33:103:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/Victor/Ethereum/TD6/contracts/Interface.sol",
+    "exportedSymbols": {
+      "InterfaceCoin": [
+        57
+      ]
+    },
+    "id": 58,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 52,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 57,
+        "linearizedBaseContracts": [
+          57
+        ],
+        "name": "InterfaceCoin",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 55,
+              "nodeType": "Block",
+              "src": "129:2:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 56,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "claimTokens",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 53,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "119:2:1"
+            },
+            "returnParameters": {
+              "id": 54,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "129:0:1"
+            },
+            "scope": 57,
+            "src": "99:32:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 58,
+        "src": "69:65:1"
+      }
+    ],
+    "src": "33:103:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.1+commit.c8a2cb62.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.5",
+  "updatedAt": "2020-11-25T10:24:47.617Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
